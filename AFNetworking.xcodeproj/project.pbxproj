@@ -26,6 +26,7 @@
 		5B0FA95E16DEEF1F0068141D /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B1C9C0516D135C900D90043 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B0FA95F16DEEF1F0068141D /* AFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B1C9C0716D135C900D90043 /* AFXMLRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B0FA96016DEEF1F0068141D /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B1C9C0916D135C900D90043 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B0FA96C16DEF3C40068141D /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0FA96B16DEF3C40068141D /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		5B0FA94116DEEEDD0068141D /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0FA96B16DEF3C40068141D /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
 		5B1C9BEA16D1356000D90043 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B1C9BEE16D1356000D90043 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		5B1C9BF016D1356000D90043 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		5B1C9BEC16D1356000D90043 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				5B0FA96B16DEF3C40068141D /* AFNetworking.h */,
 				5B1C9BF816D135C900D90043 /* AFHTTPClient.h */,
 				5B1C9BF916D135C900D90043 /* AFHTTPClient.m */,
 				5B1C9BFA16D135C900D90043 /* AFHTTPRequestOperation.h */,
@@ -146,6 +149,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B0FA96C16DEF3C40068141D /* AFNetworking.h in Headers */,
 				5B0FA95716DEEF1F0068141D /* AFHTTPClient.h in Headers */,
 				5B0FA95816DEEF1F0068141D /* AFHTTPRequestOperation.h in Headers */,
 				5B0FA95916DEEF1F0068141D /* AFImageRequestOperation.h in Headers */,
@@ -166,9 +170,9 @@
 			buildConfigurationList = 5B0FA94A16DEEEDD0068141D /* Build configuration list for PBXNativeTarget "AFNetworking" */;
 			buildPhases = (
 				5B0FA93D16DEEEDD0068141D /* Sources */,
+				5B0FA95616DEEF050068141D /* Headers */,
 				5B0FA93E16DEEEDD0068141D /* Frameworks */,
 				5B0FA93F16DEEEDD0068141D /* CopyFiles */,
-				5B0FA95616DEEF050068141D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -325,6 +329,7 @@
 				5B0FA94C16DEEEDD0068141D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B1C9BDE16D1356000D90043 /* Build configuration list for PBXProject "AFNetworking" */ = {
 			isa = XCConfigurationList;
